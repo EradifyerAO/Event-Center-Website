@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/Event Center Website/css_files/Contact_style.css">
+</head>
+<body>
+    <header>
+        <!--Navbar-->
+        <nav class="navbar">
+            <div class="logo">
+                <div class="placeholder_icon"></div>
+                <div class="sitename">Event Center</div>
+            </div>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+            <label for="menu-toggle" class="menu-toggle-label">&#9776;</label>
+            <ul class="nav-links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Events.html">Events</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Location.html">Location</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main>
+        <div class="contact_Form">
+            <form action="/submit_form" method="post">
+            <h1 class="text-3xl font-bold mb-6 text-center">Contact Us</h1>
+                <div class="form-group"><label for="name">Name:</label><input type="text" name="name" placeholder="Name" required></div>
+                <div class="form-group"><label for="email">Email:</label><input type="email" name="email" placeholder="Email" required></div>
+                <br>
+                
+                <div class="form-group"><label for="message">Message:
+                <br>
+                </label><textarea name="message" placeholder="Message" required></textarea></div>
+                <div class="button"><button type="submit">Submit</button></div>
+            </form>
+
+        </div>
+  
+
+          
+    </main>
+    
+
+    <footer>
+        <!--Footer-->    
+        <div class="footer">
+            <div class="copyright"><p>2025. All Rights Reserved.</p></div>
+            <div class="soc_icons">
+                <div class="placeholder_icon"></div>
+                <div class="placeholder_icon"></div>
+                <div class="placeholder_icon"></div>
+            </div>    
+
+        </div>
+    </footer>
+</body>
+</html>
