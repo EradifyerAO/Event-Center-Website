@@ -1,112 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="Home_style.css">
-</head>
-<body>
-    <header>
-        <!--Navbar-->
-        <nav class="navbar">
-            <div class="logo">
-                <div class="placeholder_icon"></div>
-                <div class="sitename">Event Center</div>
-            </div>
-            <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
-            <label for="menu-toggle" class="menu-toggle-label">&#9776;</label>
-            <ul class="nav-links">
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Events.html">Events</a></li>
-                <li><a href="Menu.html">Menu</a></li>
-                <li><a href="Location.html">Location</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-       <!--Page References-->
-        <div class="page_references">
-            
-                <a href="#Register"><div class="refbox">Register</div></a>
-            
-                <a href="#About Us"><div class="refbox">About Us</div></a>
+<pre>
+This is the Event Center Website
 
-                <a href="#Featured Events"><div class="refbox">Featured Events</div></a>
-            
-            
-        </div>
-        
-        <!--Hero Section-->
-        <section id="Register">
-            <div class="hero_section">
-                <div class="hero-overlay"></div>
-                <div class="hero-content">
-                    <h1 class="hero-heading"> Event</h1>
-                    <div class="hero-cta">
-                    <a href="/Event Center Website/html_pages/Events.html#Event1" class="cta-button">Register Now</a>
-                </div>
-                <div class="hero text"></div>
-                <br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio at temporibus iusto velit laudantium labore dicta dolorem voluptates rem. Ex, maiores! Deserunt, dicta ratione. Asperiores illum accusamus atque error esse!</p>
-                </div>
-            
-                
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+The site is composed of five pages. Here is layout of the site:
 
-            </div>
-            
-        </section>
-        <!--About Us-->
-        <Section id="About Us">
-            <div class="about_us">
-                <div class="hero-heading">
-                    <h3>About Us</h3>
-                </div>
-                <div class="about us text">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis quaerat quasi doloribus fugiat magnam porro nulla consequatur perferendis, soluta ipsa laudantium laborum rerum tenetur quidem consequuntur recusandae placeat expedita. Ad.
-                </div>
-            </div>
-        </Section>
-        
-        <!--Featured Events-->
-        <section id="Featured Events">
-            <div class="featured_events">
-                <div class="hero-heading">
-                    <h3>Featured Events</h3>
-                </div>
-                    <div class="events_container">
-                        <a href="Events.html#Event1"><div class="eventbox" id="box1"><h3><b>Event 1</b></h3> dolor sit amet, consectetur adipisicing elit. Quam fuga vero aliquam non repellat dolorum tempora, dolor hic aperiam. Temporibus, sed? Dignissimos culpa sunt perspiciatis alias perferendis corrupti eum minus?</div></a>
-                        <a href="Events.html#Event2"><div class="eventbox" id="box2"><h3><b>Event 2</b></h3> dolor ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eligendi earum! Deleniti sunt voluptatem libero harum, laboriosam rerum accusamus omnis asperiores in autem similique quia. Quo necessitatibus</div></a>
-                        <a href="Events.html#Event3"><div class="eventbox" id="box3"><h3><b>Event 3</b></h3> dolor ipsum dolor sit amet consectetur adipisicing elit. Dicta dolorum maxime ipsum accusamus, illum nihil nulla tempora officia suscipit, dolorem sunt veniam earum amet eum labore? Dignissimos, unde. Obcaecati, sint.</div></a>
-                    </div>
+Shared Page Elements:
+# header
+## Navbar
+### Footer
 
-                    
-            </div>
-        </section>
+Pages:
+1. Home
+2. Events
+3. Menu
+4. Location
+5. Contact
+* Notes on Mobile
 
-    </main>
-    
+#Header
+Every page on the website shares a header that contains the site logo, and title. It also contains the navbar.
 
-    <footer>
-        <!--Footer-->    
-        <div class="footer">
-            <div class="copyright"><p>2025. All Rights Reserved.</p></div>
-            <div class="soc_icons">
-                <div class="placeholder_icon"></div>
-                <div class="placeholder_icon"></div>
-                <div class="placeholder_icon"></div>
-            </div>    
-            
-            
-        </div>
-    </footer>
-</body>
-</html>
+##Navbar
+Every page on the website shares a nav bar at the top of the page. It uses a "hover" functionality for aesthetics. The navbar is designed to convert to a "mobile-friendly" version,
+with a hamburger-style dropdown menu, with links to the different pages found there. 
+
+###Footer
+Every page on the website includes the footer at the bottom of the page. The footer contains basic copyright infomation and links to the host company's social media channels.
+
+1. Home
+The home page is the main page of the site. The first section contains reference links to different parts of the page.
+The second section contains the "hero section". This contain a button to register for the upcoming event.
+The third section is the "About Us" section. It contains infomation about the host company.
+The fourth and final section is the "Featured Events" section. These are "snapshots" of the upcoming events. These snapshots are clickable links to more details about the specific event located on the "Events" page.
+
+2. Events
+The Events section contains infomation about upcoming events the host company is hosting.
+The first section are reference links to different events contained on the page.
+The second section is the main event coming up.
+The third section is the event scheduled to follow the main event.
+The fourth section is the event scheduled to followed the next event.
+
+3. Menu
+The Menu page is a simple format meant to give meal infomation about the upcoming event. It includes infomation about all five courses, 
+as well as rows for dietary infomation and pricing for each course.
+Infomation about dietary infomation is given for clarity.
+
+4. Location
+The location page gives visitors location infomation about where the host company will be hosting the events. An image of the map is shown, 
+as well as the address of the location. A caption of map is given underneath the map image for clarifying infomation.
+
+5. Contact
+The contact page gives visitors a simple means of communication with the host company. Text forms collection infomation such as "name", "email", and a short message are offered here.
+text boxes left blank will return a "fill out this field" requirement for all required fields.
+</pre>
