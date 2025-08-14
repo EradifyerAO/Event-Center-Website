@@ -1,3 +1,6 @@
+![alt text](https://github.com/EradifyerAO/Event-Center-Website/blob/main/Images/Home_page.png)
+
+
 <pre>
 This is the Event Center Website
 
